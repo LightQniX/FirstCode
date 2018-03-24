@@ -9,36 +9,35 @@ int main()
  const int MAX_ITEMS = 10;
  string inventory[MAX_ITEMS];
  int numltems = 0;
- inventory[numltems++] ="Меч";
- inventory[numltems++] ="Доспехи";
- inventory[numltems++] ="Щит";
- cout << "Ваши вещи:\n";
+ inventory[numltems++] ="РњРµС‡";
+ inventory[numltems++] ="Р”РѕСЃРїРµС…Рё";
+ inventory[numltems++] ="Р©РёС‚";
+ cout << "Р’Р°С€Рё РІРµС‰Рё:\n";
  for (int i =0; i < numltems; ++i)
  {
      cout << inventory[i] << endl;
  }
-  cout << "\nВы меняете меч на боевой топор. ";
-  inventory[0] = "Боевой топор";
-  cout << "\nВаши вещи:\n";
+  cout << "nР’С‹ РјРµРЅСЏРµС‚Рµ РјРµС‡ РЅР° Р±РѕРµРІРѕР№ С‚РѕРїРѕСЂ.  ";
+  inventory[0] = "Р‘РѕРµРІРѕР№ С‚РѕРїРѕСЂ";
+  cout << "\nР’Р°С€Рё РІРµС‰Рё:\n";
   for (int i =0; i < numltems; ++i)
   {
       cout << inventory[i] << endl;
   }
-  cout << "\nНазвание предмета '" << inventory[0] << "' имеет ";
-  cout << inventory[0] .size() << " букв. \n";
-  cout << "\nВы нашли исцеляющее зелье.";
+  cout << "\nРќР°Р·РІР°РЅРёРµ РїСЂРµРґРјРµС‚Р° '" << inventory[0] << "' РёРјРµРµС‚ ";
+  cout << inventory[0] .size() << " Р±СѓРєРІ. \n";
+  cout << "\nР’С‹ РЅР°С€Р»Рё РёСЃС†РµР»СЏСЋС‰РµРµ Р·РµР»СЊРµ.";
   if (numltems < MAX_ITEMS)
   {
-      inventory[numltems++] ="исцеляющее зелье";
+      inventory[numltems++] ="РёСЃС†РµР»СЏСЋС‰РµРµ Р·РµР»СЊРµ";
   }
   else
   {
-      cout << "У вас переполнен рюкзак, вы не унесете больше.";
+      cout << "РЈ РІР°СЃ РїРµСЂРµРїРѕР»РЅРµРЅ СЂСЋРєР·Р°Рє, РІС‹ РЅРµ СѓРЅРµСЃРµС‚Рµ Р±РѕР»СЊС€Рµ.";
   }
-  cout << "\nВаши вещи:\n";
+  cout << "\nР’Р°С€Рё РІРµС‰Рё:\n";
   for (int i =0; i < numltems; ++i)
   {
       cout <<inventory[i] << endl;
   }
   return 0;
-}
