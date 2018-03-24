@@ -9,7 +9,7 @@ int main()
     const int GOLD_PIECES = 900;
     int adventurers, killed, survivors;
     string leader;
-    //получаю информацию
+    
     cout << "Welcome to lost Fortune\n\n";
     cout << "Please enter the following for your personalized adventure\n";
     cout << "enter a number: ";
@@ -19,13 +19,13 @@ int main()
     survivors = adventurers - killed;
     cout << "Enter your last name: ";
     cin >> leader;
-    //сюжет
+    
      cout << "\nA brave group of " << adventurers << " set out on a quest ";
      cout << "-- in search of the lost treasure of the Ancient Dwarves. ";
      cout << "The group was led by that legendary rogue. " << leader << ". \n";
-     cout << "\nAlong the way. а band of marauding ogres ambushed the party. ";
+     cout << "\nAlong the way. Г  band of marauding ogres ambushed the party. ";
      cout << "All fought bravely under the command of " << leader;
-     cout << ". and the ogres were defeated. but at а cost. ";
+     cout << ". and the ogres were defeated. but at Г  cost. ";
      cout << "Of the adventurers. " << killed << " were vanquished. " ;
      cout << "leaving just "<< survivors <<" in the group.\n";
      cout << "\nThe party was about to give up all hope. ";
