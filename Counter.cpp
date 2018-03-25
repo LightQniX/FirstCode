@@ -1,5 +1,4 @@
-// Программа Counter
-// Демонстрирует работу с циклами for
+
 #include <iostream>
 
 using namespace std;
@@ -16,7 +15,7 @@ for ( int i = 9; i >= 0; --i )
 {
     cout<< i << " " ;
 }
-cout << "\n\nCounting Ьу fives:\n";
+cout << "\n\nCounting ГњГі fives:\n";
  for ( int i = 0; i <= 50; i += 5)
  {
     cout << i << " " ;
